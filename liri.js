@@ -21,20 +21,20 @@ switch(liriArgument) {
 };
 
 // Bands in Town function
-var Events = new BandsInTownEvents();
+// var Events = new BandsInTownEvents();
 
-Events.setParams({
-    "app_id": "codingbootcamp",
-    "artists": process.argv[3]
-});
+// Events.setParams({
+//     "app_id": "codingbootcamp",
+//     "artists": process.argv[3]
+// });
 
-Events.getEvents(function(events){
-    for (var i = 0; i< events.length; i++){
-        console.log(events[i].venue.city + ", " + events[i].venue.region);
-    }
-}, function (errors){
-    console.log(errors);
-})
+// Events.getEvents(function(events){
+//     for (var i = 0; i< events.length; i++){
+//         console.log(events[i].venue.city + ", " + events[i].venue.region);
+//     }
+// }, function (errors){
+//     console.log(errors);
+// })
 
 // Spotify function
 function spotifyThisSong(songName) {
@@ -73,7 +73,7 @@ function movieThis() {
         if (!error && response.statusCode == 200) {
             var movieObject = JSON.parse(body);
             var movieResults = 
-            "------------------------------" + "\r\n";
+            "------------------------------" + "\r\n" +
             "Title: " + movieObject.Title + "\r\n" +
             "Year: " + movieObject.Year + "\r\n" +
             "Imdb Rating: " + movieObject.imdbRating + "\r\n" +
@@ -82,7 +82,7 @@ function movieThis() {
             "Plot: " + movieObject.Plot + "\r\n" +
             "Actors: " + movieObject.Actors + "\r\n" +
             "Rotten Tomatoes Rating: " + movieObject.tomatoRating + "\r\n" +
-            "Rotten Tomatoes URL: " + movieObject.tomatoURL + "\r\n";
+            "Rotten Tomatoes URL: " + movieObject.tomatoURL + "\r\n" +
             "------------------------------" + "\r\n";
             console.log(movieResults);
         } else {
