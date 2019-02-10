@@ -1,7 +1,7 @@
 # liri-node-app
 
 ## Summary
-LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
 
 ## Languages Used
 This application uses Node.js, moment, axios and request, and JavaScript.
@@ -23,3 +23,8 @@ Song stuck in your head, but you just can't remember who sang it? Type in your s
 What was that actor's name - you know, the one who starred in that movie? If you need to settle a bet with your friend on whether or not Brad Pitt was the star of your favorite film, along with other useful information movie-this has got you covered.
 
 ![Running movie-this "The Last Picture Show"](images/movie-this.png)
+
+## Do-What-It-Says
+If you feel like being told what to do, try using the do-what-it-says command to see what it comes up with.
+
+![Running do-what-it-says](images/do-what-it-says.png)
