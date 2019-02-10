@@ -24,10 +24,10 @@ switch (liriArgument) {
         break;
     default:
         console.log("\r\n" + "Type one of the following commands after 'node.js': " + "\r\n" +
-            "1. spotify-this-song 'any song name'" + "\r\n" +
-            "2. movie-this 'any movie name'" + "\r\n" +
-            "3. do-what-it-says" + "\r\n" +
-            "4. concert-this 'any artist/band name'" + "\r\n" +
+            "1. concert-this 'any artist/band name'" + "\r\n" +
+            "2. spotify-this-song 'any song name'" + "\r\n" +
+            "3. movie-this 'any movie name'" + "\r\n" +
+            "4. do-what-it-says" + "\r\n" +
             "Please make sure the movie or song name is in quotation marks if it is more than one word!")
 };
 
