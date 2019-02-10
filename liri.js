@@ -33,11 +33,7 @@ switch (liriArgument) {
 
 // Bands in Town function
 function concertThis(subject) {
-    // var artist = process.argv.slice(3).join(" ");
-    console.log(subject);
-
     var queryURL = "https://rest.bandsintown.com/artists/" + subject + "/events?app_id=codingbootcamp";
-    console.log(queryURL);
 
     axios.get(queryURL)
         .then(function (response) {

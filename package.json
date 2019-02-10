@@ -19,12 +19,9 @@
   "homepage": "https://github.com/cait-sidener/liri-node-app#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "bandsintown-events": "^1.0.4",
     "dotenv": "^6.2.0",
     "moment": "^2.24.0",
     "node-spotify-api": "^1.0.7",
-    "request": "^2.88.0",
-    "reqwest": "^2.0.5",
-    "xhr2": "^0.1.4"
+    "request": "^2.88.0"
   }
 }
