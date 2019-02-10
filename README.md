@@ -23,3 +23,8 @@ Song stuck in your head, but you just can't remember who sang it? Type in your s
 What was that actor's name - you know, the one who starred in that movie? If you need to settle a bet with your friend on whether or not Brad Pitt was the star of your favorite film, along with other useful information movie-this has got you covered.
 
 ![Running movie-this "The Last Picture Show"](images/movie-this.png)
+
+## Do-What-It-Says
+If you feel like being told what to do, try using the do-what-it-says command to see what it comes up with.
+
+![Running do-what-it-says](images/do-what-it-says.png)
